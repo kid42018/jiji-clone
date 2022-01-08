@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/static/js/main.7904454a.js",
+    "static/js/787.70efb12d.chunk.js": "/static/js/787.70efb12d.chunk.js",
+    "static/media/girls.png": "/static/media/girls.2f902bdaade7068b3f88.png",
+    "static/media/main_how_to_buy (1).jpg": "/static/media/main_how_to_buy (1).72d6e9b291f41f9361d5.jpg",
+    "static/media/main_how_to_buy.jpg": "/static/media/main_how_to_buy.72d6e9b291f41f9361d5.jpg",
+    "static/media/main_safety_tips.jpg": "/static/media/main_safety_tips.ce4c9492779ffe696f6c.jpg",
+    "static/media/man.png": "/static/media/man.7bef05d952949cfc5770.png",
+    "static/media/ios.svg": "/static/media/ios.528b7ab9230b41e332e5df55f3c36749.svg",
+    "static/media/footer-ethiopia.svg": "/static/media/footer-ethiopia.02c3046e03e44d830d190550bf9f6c3d.svg",
+    "static/media/icons-google.svg": "/static/media/icons-google.0fa08728a2eb5e7208104b9ecf7bd39c.svg",
+    "static/media/icons-facebook.svg": "/static/media/icons-facebook.7c26da5a1dd65d57b5137e5d87b183d6.svg",
+    "index.html": "/index.html",
+    "static/media/forward-icon.svg": "/static/media/forward-icon.0bfb9f3b780f4d809bbfb578871e3d93.svg",
+    "static/media/backward-icon.svg": "/static/media/backward-icon.bb1d685436de3c832c9e16ba41989846.svg",
+    "main.7904454a.js.map": "/static/js/main.7904454a.js.map",
+    "787.70efb12d.chunk.js.map": "/static/js/787.70efb12d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7904454a.js"
+  ]
+}
