@@ -67,14 +67,14 @@ return (
      <div className={`${state.isValid === null ? '' : (state.isValid === false ? 'error-border':'validated-border')}`} >
         <span onClick={()=>inputDoc.current.focus()} className={`${showPlaceholder ? '' : 'focused'} ${isPhone ? 'phone-container' : ''}`}>{state.placeholder}</span>
         {!showPlaceholder&&isPhone ? <div className='phone-code'>
-                    <div onMouseEnter={()=>setIsMouseOnDropDown(true)} onMouseLeave={()=>setIsMouseOnDropDown(false)} onClick={handleDropDownClick} class="phone-code__selector-container">
+                    <div onMouseEnter={()=>setIsMouseOnDropDown(true)} onMouseLeave={()=>setIsMouseOnDropDown(false)} onClick={handleDropDownClick} className="phone-code__selector-container">
                         <img  src={`https://flagcdn.com/16x12/${CountryCodes[selectedAreaCode].code.toLowerCase()}.png`} width="16" height="12" alt="" />
                         <span>{CountryCodes[selectedAreaCode].dial_code}</span>
                         <ArrowDropDown />
                     </div>
                     <div  onMouseEnter={()=>setIsMouseOnDropDown(true)} onMouseLeave={()=>setIsMouseOnDropDown(false)} className={`phone-code__options-container ${dropDownClose ? 'phone-code__options-container--hide' : ''}`}>
                         {CountryCodes.map((c,i)=>
-                         <div onClick={()=>handleDropDownSelected(i)}>
+                         <div key={i} onClick={()=>handleDropDownSelected(i)}>
                              <img  src={`https://flagcdn.com/16x12/${c.code.toLowerCase()}.png`} width="16" height="12" alt="" />
                              <span>{c.name}</span>
                              <span>{c.dial_code}</span>

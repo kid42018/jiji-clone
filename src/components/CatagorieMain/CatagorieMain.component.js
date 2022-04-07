@@ -12,8 +12,8 @@ export default function CatagorieMain() {
                        <AddCircle className='add-cricle' />
                        <span className='post-add'>Post Add</span>
                </div></Link>
-               {catagorieData.map(data => 
-               <div className="catagorie-grid-item">
+               {catagorieData.map((data,i) => 
+               <div key={i} className="catagorie-grid-item">
                        <img src={require(`../../assets/images/${data.image}`)} alt="" />
                        <span>{data.name}</span>
                </div>)}

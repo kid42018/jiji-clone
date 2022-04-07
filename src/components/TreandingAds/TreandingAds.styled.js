@@ -4,7 +4,6 @@ export const StyledTreandingAds = styled.div`
     display:flex;
     flex-direction: column;
     width:100%;
-    max-width:1000px;
     margin:auto;
     h1{
         font-size:1.4em;

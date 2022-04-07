@@ -40,8 +40,8 @@ export default function CatagorieSideBar() {
         <StyledCatagorieSideBar>
                    <div ref={doc} onScroll={()=>trackOnScroll()} className="catagorie-container-box">
                        {
-                       catagorieData.map(data => 
-                        <div onMouseOver={()=>setSubCatagorie(data.subcatagorie ?? [])}>
+                       catagorieData.map((data,i) => 
+                        <div key={i} onMouseOver={()=>setSubCatagorie(data.subcatagorie ?? [])}>
                             <img alt="" src={require(`../../assets/images/${data.image}`)} />
                            <span>
                                 <h1>{data.name}</h1>

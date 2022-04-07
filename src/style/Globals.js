@@ -7,7 +7,7 @@ const Global = createGlobalStyle`
   }
   body,html,#root{
       width:100%;
-      max-width:1366px;
+      margin:auto;
       min-height:100vh !important;
       background-color:#FBEAFF;
       font-family:arial;
